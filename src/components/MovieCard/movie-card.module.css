@@ -1,0 +1,8 @@
+.movieLink{
+    text-decoration: none;
+    color:black;
+}
+.movieLink:is(:hover,:focus){
+    color:teal;
+    border-bottom:1px solid teal;
+}
